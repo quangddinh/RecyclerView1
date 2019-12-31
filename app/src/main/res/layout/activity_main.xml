@@ -7,20 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <ListView-->
-<!--        android:id="@+id/listviewMonHoc"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:layout_centerVertical="true" >-->
-<!--    </ListView>-->
-
-
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvMenu"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/item_menu"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-
+        android:layout_height="match_parent"/>
 </RelativeLayout>
